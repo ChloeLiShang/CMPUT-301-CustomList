@@ -25,6 +25,10 @@ public class CustomList extends ArrayAdapter<City> {
         this.context = context;
     }
 
+    public CustomList(com.example.simpleparadox.listycity.MainActivity context, ArrayList<com.example.simpleparadox.listycity.City> cityDataList) {
+        super();
+    }
+
 
     @NonNull
     @Override
